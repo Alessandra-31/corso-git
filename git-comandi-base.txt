@@ -1,0 +1,35 @@
+
+🚀 WORKFLOW BASE CON GIT
+
+# 1. Vedi lo stato attuale dei file
+git status
+
+# 2. Vedi le modifiche riga per riga (opzionale)
+git diff
+
+# 3. Aggiungi un file specifico al prossimo commit
+git add nomefile.ext
+
+# Oppure aggiungi tutti i file modificati
+git add .
+
+# 4. Fai un commit con un messaggio descrittivo
+git commit -m "Messaggio del commit"
+
+# 5. Vedi la cronologia dei commit
+git log --oneline
+
+# 6. (Opzionale) Annulla modifiche prima del commit
+git restore nomefile.ext
+
+
+🧠 COMANDI UTILI DA RICORDARE
+
+| Comando                   | Cosa fa                                   |
+|---------------------------|-------------------------------------------|
+| git status                | Mostra lo stato dei file                  |
+| git add .                 | Aggiunge tutte le modifiche               |
+| git commit -m "msg"       | Crea un punto di salvataggio              |
+| git log                   | Mostra la cronologia dei commit           |
+| git diff                  | Mostra cosa è cambiato nei file           |
+| git restore nomefile      | Ripristina un file allo stato precedente  |
