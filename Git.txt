@@ -1,0 +1,37 @@
+Git
+
+-Cosa si intende per repository in git?
+
+In Git, una repository (o "repo") è un contenitore che include tutto il necessario per gestire un progetto con il controllo di versione. In particolare, una repository Git contiene:
+
+I file del progetto – ad esempio, codice sorgente, documentazione, configurazioni.
+
+La cronologia delle modifiche – cioè tutti i commit che tracciano l’evoluzione dei file nel tempo.
+
+Metadati – informazioni sui rami (branches), tag, autori dei commit, ecc.
+
+Ci sono due tipi principali di repository in Git:
+
+Repository locale: è quella che hai sul tuo computer. Include l’intera cronologia del progetto e puoi lavorarci anche offline.
+
+Repository remota: è quella che si trova su un server (ad esempio GitHub, GitLab, Bitbucket) e serve per condividere il codice con altri sviluppatori.
+
+Esempio pratico:
+Quando esegui git init, crei una nuova repository locale. -> apri poi la cartella in mostra elementi nascosti 
+Quando esegui git clone https://..., scarichi una copia di una repository remota sul tuo computer.
+
+
+Quando esegui git status ti viene mostrato lo stato attuale del tuo file e della tua cartella
+Quando esegui git add e inserisci il nome del tuo file, git lo riconoscerà 
+
+Esempio pratico:
+Se visualizzi il tuo file con a fianco una letter U , significa che il tuo file non viene riconosciuto (unknown)
+Fai git status 
+Facendo poi git add, il tuo file viene aggiunto e riconsciuto da git e comparirà al suo fianco la lettera A ( Add )
+Fai git status e te lo mostrerà con le modifiche appena sistemate
+
+
+
+
+
+
