@@ -27,8 +27,21 @@ Quando esegui git add e inserisci il nome del tuo file, git lo riconoscerà
 Esempio pratico:
 Se visualizzi il tuo file con a fianco una letter U , significa che il tuo file non viene riconosciuto (unknown)
 Fai git status 
-Facendo poi git add, il tuo file viene aggiunto e riconsciuto da git e comparirà al suo fianco la lettera A ( Add )
+Facendo poi git add, il tuo file viene aggiunto e riconosciuto da git e comparirà al suo fianco la lettera A ( Add )
 Fai git status e te lo mostrerà con le modifiche appena sistemate
+
+
+Git Bash: Cos'è e come funziona
+
+Git Bash è un terminale che fornisce un ambiente simile a bash (Bourne Again SHell) su Windows, con Git integrato. Permette di eseguire comandi Git e comandi Unix/Linux in un'interfaccia a riga di comando, simile a quella di Linux/macOS.
+
+Caratteristiche principali:
+- Esecuzione di comandi Git: clone, commit, push, pull, ecc.
+- Uso di comandi tipici di Unix/Linux: ls, cd, rm, touch, ecc.
+- Compatibilità con script bash.
+- Ambiente utile per gli utenti Windows che desiderano utilizzare Git con una shell simile a quella di Linux.
+
+Viene fornito con l'installazione di Git su Windows.
 
 
 
