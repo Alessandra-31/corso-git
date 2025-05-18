@@ -21,7 +21,16 @@ git log --oneline
 
 # 6. (Opzionale) Annulla modifiche prima del commit
 git restore nomefile.ext
+invece
+git restore --source <commit> <file> Permette di ripristinare un file a una versione contenuta in uno specifico commit.
 
+# 7. Creare una nuova Branch (nuova versione delle modifiche)
+git branch nome 
+
+#8. Per passare da un branch ad un altro
+git switch nome altro branch 
+o 
+git branch ckeckout nome 
 
 🧠 COMANDI UTILI DA RICORDARE
 
